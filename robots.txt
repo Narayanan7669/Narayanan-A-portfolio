@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Replace with your real website address
+Sitemap: hhttps://github.com/Narayanan7669/sitemap.xml
