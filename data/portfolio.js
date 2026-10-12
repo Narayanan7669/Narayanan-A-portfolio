@@ -65,8 +65,8 @@ window.PORTFOLIO = {
   /* ---- Resume: replace the PDF file, keep the same name (or change "file") ---- */
   resume: {
     intro: "My resume summarizes my education, skills, and projects. A placeholder file is currently in place until my final resume is added.",
-    file: "assets/Narayanan_tech_resume.pdf",   /* the PDF inside the assets folder */
-    downloadName: "Narayanan_A_Resume.pdf"      /* file name the visitor receives when downloading */
+    file: "assets/Narayanan_Tech_Resume.pdf",   /* the PDF inside the assets folder */
+    downloadName: "assets/Narayanan_Tech_Resume.pdf"      /* file name the visitor receives when downloading */
   },
 
   /* ---- Contact: replace the placeholders with your real details ---- */
