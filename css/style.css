@@ -23,3 +23,44 @@ footer{text-align:center;padding:2rem 1rem;border-top:1px solid var(--border);co
 @media(prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none;transition:none}html{scroll-behavior:auto}}
 @media(max-width:720px){#burger{display:block}#nav-links{display:none;position:absolute;top:100%;left:0;right:0;flex-direction:column;background:var(--surface);padding:1rem;border-bottom:1px solid var(--border)}#nav-links.open{display:flex}#nav-resume{display:none}}
 #prev-box{margin-top:1rem}#prev-frame{width:100%;height:75vh;min-height:420px;border:1px solid var(--border);border-radius:var(--card-r);background:#fff}
+
+.contact-logos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin: 24px 0;
+}
+
+.contact-logos a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  color: var(--text);
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.contact-logos i {
+  font-size: 32px;
+}
+
+.contact-logos a:hover {
+  color: #0a66c2;
+  transform: translateY(-3px);
+}
+
+/* Center the Contact section */
+#contact .card {
+  text-align: center;
+}
+
+#contact .contact-logos {
+  justify-content: center;
+  align-items: center;
+}
+
+#contact .contact-logos a {
+  min-width: 70px;
+}
+
